@@ -17,8 +17,6 @@ spring:
       group-id: order-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-      properties:
-        spring.json.trusted.packages: com.example.inventory_service.model
 
 management:
   endpoints:
